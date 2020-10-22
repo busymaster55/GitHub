@@ -1,0 +1,33 @@
+{
+  "name": "discord-crypto-bot",
+  "version": "1.0.0",
+  "description": "Barebones cryptocurrency price tracking bot for Discord",
+  "main": "init.js",
+  "type": "module",
+  "scripts": {
+    "start": "node init.js"
+  },
+  "engines": {
+    "node": ">=13.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kondax/Discord-Crypto-Bot.git"
+  },
+  "author": "Kondax <me@kondax.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kondax/Discord-Crypto-Bot/issues"
+  },
+  "homepage": "https://github.com/Kondax/Discord-Crypto-Bot#readme",
+  "dependencies": {
+    "coingecko-api": "^1.0.10",
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "pino": "^6.1.1",
+    "pino-pretty": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
